@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "my-first-project";
+    config.base = "mit-f-rste-CRUD";
   }
 
   return config;
