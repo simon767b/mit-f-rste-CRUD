@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "mit-f-rste-CRUD"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/mit-f-rste-CRUD/"}>
       <App />
     </BrowserRouter>
   </StrictMode>
